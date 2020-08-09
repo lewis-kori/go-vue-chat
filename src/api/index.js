@@ -1,5 +1,5 @@
 // api/index.js
-var socket = new WebSocket("ws://91.92.136.39:8090/ws");
+var socket = new WebSocket("wss://go-chat-pro.lewiskori.com/ws");
 
 let connect = (cb) => {
   console.log("Attempting Connection...");
