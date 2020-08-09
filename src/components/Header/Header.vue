@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <h2>Realtime chat app</h2>
+      <h2>Realtime chat app by <a href="https://lewiskori.com" target="__blank"><small>@lewiskori</small></a></h2>
     </div>
   </div>
 </template>
