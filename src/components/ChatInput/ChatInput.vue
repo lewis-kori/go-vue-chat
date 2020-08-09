@@ -11,7 +11,7 @@ export default {
     send() {
       let value = this.$refs.chatInput.value;
       this.$emit('send', value);
-      value = "";
+      this.$refs.chatInput.value = '';
     },
   },
 };
